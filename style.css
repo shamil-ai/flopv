@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #050509;
+  color: white;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0d0d15;
+}
+
+.nav h1 {
+  color: #00f0ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+/* Cards */
+.grid div {
+  padding: 40px;
+  background: #111;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.grid div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00f0ff55;
+}
+
+/* Table */
+table {
+  width: 100%;
+  background: #111;
+}
+
+td, th {
+  padding: 12px;
+  text-align: center;
+}
+
+tr:hover {
+  background: #00f0ff22;
+}
+
+/* Input */
+input {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px;
+  background: #00f0ff;
+  border: none;
+}
