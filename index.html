@@ -2,77 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Grafyxora | Pro Portfolio</title>
-
-  <!-- CSS -->
+  <title>Grafyxora | Graphic Designer</title>
   <link rel="stylesheet" href="style.css">
 
-  <!-- Libraries -->
+  <!-- Animations -->
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <body>
 
-<!-- Particle Background -->
-<div id="particles-js"></div>
+<!-- 🌌 Glow Background -->
+<div class="bg-glow"></div>
 
-<!-- Navbar -->
-<nav class="nav">
+<!-- 🔝 Navbar -->
+<nav>
   <h1>Grafyxora</h1>
   <ul>
     <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#results">Results</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
-<!-- Hero -->
-<section id="home" class="section hero">
-  <h2>I'm <span class="typing"></span></h2>
-  <p>Creative Graphic Designer</p>
+<!-- 🏠 Hero -->
+<section id="home" class="hero">
+  <h2>I’m <span class="typing"></span></h2>
+  <p>Professional Graphic Designer</p>
+  <p>3+ Years Experience in Creative Design</p>
 </section>
 
-<!-- Portfolio -->
+<!-- 👤 About -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am Grafyxora, a passionate graphic designer with 3+ years of experience.
+    I create modern, eye-catching designs that help brands stand out.
+  </p>
+</section>
+
+<!-- 🛠 Services -->
+<section id="services" class="section">
+  <h2>My Services</h2>
+  <div class="grid">
+    <div class="card">Poster Design</div>
+    <div class="card">Banner Design</div>
+    <div class="card">Logo Design</div>
+    <div class="card">Notice Design</div>
+  </div>
+</section>
+
+<!-- 🎨 Portfolio -->
 <section id="portfolio" class="section">
-  <h2>Works</h2>
-  <div class="grid" id="portfolioGrid"></div>
+  <h2>My Works</h2>
+  <div class="grid">
+    <div class="card">Creative Poster</div>
+    <div class="card">Brand Logo</div>
+    <div class="card">Event Banner</div>
+    <div class="card">Social Media Design</div>
+  </div>
 </section>
 
-<!-- Result System -->
-<section id="results" class="section">
-  <h2>Results</h2>
-
-  <input type="text" id="searchInput" placeholder="Search student...">
-
-  <table>
-    <thead>
-      <tr>
-        <th>Rank</th>
-        <th>Name</th>
-        <th>School</th>
-        <th>Grade</th>
-      </tr>
-    </thead>
-    <tbody id="resultBody"></tbody>
-  </table>
-</section>
-
-<!-- Contact -->
+<!-- 📩 Contact -->
 <section id="contact" class="section">
-  <h2>Contact</h2>
-  <form id="contact-form">
-    <input name="user_name" placeholder="Name" required>
-    <input name="user_email" type="email" placeholder="Email" required>
-    <textarea name="message" placeholder="Message"></textarea>
-    <button>Send</button>
-  </form>
-  <p id="status"></p>
+  <h2>Contact Me</h2>
+  <p>Email: grafyxora@gmail.com</p>
+  <p>Instagram: @grafyxora</p>
 </section>
 
-<script src="data.js"></script>
+<footer>
+  <p>© 2026 Grafyxora</p>
+</footer>
+
 <script src="script.js"></script>
 </body>
 </html>
