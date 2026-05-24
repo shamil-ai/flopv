@@ -54,3 +54,11 @@ ScrollReveal().reveal('.section', {
   origin: 'bottom',
   interval: 200
 });
+function openModal(img) {
+  document.getElementById("modal").style.display = "flex";
+  document.getElementById("modalImg").src = img.src;
+}
+
+function closeModal() {
+  document.getElementById("modal").style.display = "none";
+}
