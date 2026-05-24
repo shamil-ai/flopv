@@ -39,3 +39,18 @@ document.getElementById("searchInput").addEventListener("input", e => {
   const filtered = results.filter(r => r.name.toLowerCase().includes(value));
   render(filtered);
 });
+// Typing animation
+new Typed(".typing", {
+  strings: ["Grafyxora", "Graphic Designer", "Creative Artist"],
+  typeSpeed: 80,
+  backSpeed: 40,
+  loop: true
+});
+
+// Scroll reveal
+ScrollReveal().reveal('.section', {
+  distance: '50px',
+  duration: 1000,
+  origin: 'bottom',
+  interval: 200
+});
